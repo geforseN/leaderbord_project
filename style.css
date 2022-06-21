@@ -1,0 +1,44 @@
+*, ::before, ::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-beige: #E5C9C5;
+  --color-beige-bright: #F3C3BC;
+
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 1em auto;
+  display: block;
+}
+
+fieldset {
+  border: none;
+}
+
+input, button {
+  /* display: inline-flex; */
+  padding: 0.6em;
+  border: 1px solid var(--color-beige);
+
+  font: inherit;
+  text-align: center;
+}
+
+#addPlayer {
+  background-color: #E5C9C5;
+}
